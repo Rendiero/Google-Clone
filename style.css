@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
+}
+
+body {
+    background-color: #202124;
+}
+
+.content-header {
+    background-color: #202124;
+}
+
+.wrapper {
+    height: auto;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 16px;
+    padding-right: 20px;
+    align-items: center;
+    vertical-align: middle;
+}
+
+.item-header1 {
+    margin-left: 15px;
+}
+
+.header-menuprofile {
+    margin-left: 28px;
+}
+
+#header-gmail, #header-images {
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#menu {
+    background-image: url('/Images/dots-menu.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 23px;
+    margin-top: 8px;
+    width: 16px;
+    height: 16px;
+}
+
+#profile {
+    background-image: url('/Images/profile.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    float: right;
+}
+
+/*--- Main Content ---*/
+
+.content-main {
+    margin-top: 130px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-google {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#google-logo {
+    width: 320px;
+    height: 190px;
+    margin-bottom: -23px;
+}
+
+#text-search {
+    background-color: #202124;
+    width: 580px;
+    height: 45px;
+    border-radius: 30px;
+    border: 0.5px solid grey;
+}
+
+.searchicon {
+    position: relative;
+    margin-top: -34px;
+    margin-left: 18px;
+}
+
+#search-icon {
+    width: 15px;
+}
+
+#text-search:hover {
+    background-color: #2e2f33;
+    border: none;
+    box-shadow: 1px 1px black;
+}
+
+.button-search {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.button-search a {
+    font-family: sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 250;
+    margin: 30px 10px;
+    background-color: rgb(54, 50, 50);
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+.offered-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#offered-letter {
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.offered-letter-class {
+    text-decoration: none;
+    color: rgb(137, 137, 246);
+    font-size: 12px;
+    font-weight: 500px;
+    margin: 0 10px;
+}
+
+.content-footer-one {
+    background-color: #18181a;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 58px;
+}
+
+.content-footer-two {
+    background-color: #18181a;
+    position: absolute;
+    bottom: 0;
+    height: ;
+    width: 100%;
+}
+
+.footer-firstline {
+    margin-left: 30px;
+}
+
+#country-name {
+    color: rgb(181, 181, 181);
+    margin: 16px 0;
+    font-size: 14px;
+}
+
+.footer-secondline {
+    margin-left: 30px;
+}
+
+.link-footer {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.footer-link-left, .footer-link-right {
+    list-style: none;
+}
+
+.footer-link-left {
+    margin-left: 8px;
+}
+
+.footer-link-right {
+    margin-right: 38px;
+}
+
+.linkf {
+    padding-right: 25px;
+}
+
+.linkfo {
+    padding-left: 25px;
+}
+
+.linkf, .linkfo {
+    color: rgb(181, 181, 181);
+    text-decoration: none;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+

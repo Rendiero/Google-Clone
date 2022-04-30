@@ -52,3 +52,32 @@
         margin-bottom: -5px;
     }
 }
+
+@media only screen and (max-width:640px) {
+    .content-footer-one {
+        margin-bottom: 95px;
+    }
+
+    #country-name {
+
+    }
+
+    .content-footer-two {
+    }
+
+    .footer-secondline {
+        align-items: center;
+    }
+
+    .link-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-link-left {
+        margin-bottom: 20px;
+        margin-top: -8px;
+    }
+}
